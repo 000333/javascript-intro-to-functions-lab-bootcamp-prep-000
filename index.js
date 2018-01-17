@@ -8,5 +8,12 @@ function whisper(string) {
 
 function logShout(string) {
   
-  console.log(shout)
+}
+
+function logWhisper(string) {
+  
+}
+
+function sayHiToGrandma(string) {
+  
 }
