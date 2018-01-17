@@ -11,7 +11,7 @@ function logShout(spy) {
     console.log(spy.toUpperCase())
 }
 
-function logWhisper(string) {
+function logWhisper(spy) {
   if (spy === 'HELLO')
     console.log(spy.toLowerCase())
 }
