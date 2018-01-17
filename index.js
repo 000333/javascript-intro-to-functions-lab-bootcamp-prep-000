@@ -11,12 +11,12 @@ function whisper(string) {
 whisper('EEEYYYYYYY')
 
 function logShout(spy) {
-  if (spy === 'hello doggy')
+  if (spy === 'hello')
     console.log(spy.toUpperCase())
 }
 
 function logWhisper(spy) {
-  if (spy === 'HELLO KITTY')
+  if (spy === 'HELLO')
     console.log(spy.toLowerCase())
 }
 
