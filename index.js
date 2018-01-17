@@ -2,17 +2,21 @@ function shout(string) {
   return string.toUpperCase()
 }
 
+shout('gross')
+
 function whisper(string) {
   return string.toLowerCase()
 }
 
+whisper('EEEYYYYYYY')
+
 function logShout(spy) {
-  if (spy === 'hello')
+  if (spy === 'hello doggy')
     console.log(spy.toUpperCase())
 }
 
 function logWhisper(spy) {
-  if (spy === 'HELLO')
+  if (spy === 'HELLO KITTY')
     console.log(spy.toLowerCase())
 }
 
@@ -24,3 +28,5 @@ function sayHiToGrandma(string) {
   if (string === 'I love you, Grandma.')
     return "I love you, too."
 }
+
+sayHiToGrandma('I love you, Grandma.')
